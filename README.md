@@ -10,7 +10,7 @@ This is a simple bash script that I wrote to quickly sign, zip, notarize and sta
 ## Example
 
 ```
-notarizer -d "Developer ID Application: My Company" -k my_appstoreconnect_profile "MyApplication.app"
+./notarizer -d "Developer ID Application: My Company" -k my_appstoreconnect_profile ~/path/to/MyApplication.app
 ```
 
 ## Prerequisites
